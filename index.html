@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Rock Paper Sciccor Game</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <h1 class="computer-box">
+        Computer choice:
+        <img class="computer-choice-img act-1 hidden" src="rock.jpg" />
+        <img class="computer-choice-img act-2 hidden" src="papper.jpg" />
+        <img class="computer-choice-img act-3 hidden" src="scissor.jpg" />
+      </h1>
+      <h1 class="your-choice-box">
+        Your choice:
+        <img class="user-choice-img choice-1 hidden" src="rock.jpg" />
+        <img class="user-choice-img choice-2 hidden" src="papper.jpg" />
+        <img class="user-choice-img choice-3 hidden" src="scissor.jpg" />
+      </h1>
+      <h1 class="result-box">
+        Result:
+        <span id="result"></span>
+      </h1>
+    </div>
+
+    <div class="button-container">
+      <button id="2">Paper</button>
+      <button id="3">Scissor</button>
+      <button id="1">Rock</button>
+    </div>
+    <div class="overlay-on-buttons hidden"></div>
+    <script src="script.js"></script>
+    <footer>
+      icons from here !!!!!
+      <a
+        href="https://www.vecteezy.com/vector-art/691497-rock-paper-scissors-neon-icons"
+        >Rock Paper Scissors Vectors by Vecteezy</a
+      >
+    </footer>
+  </body>
+</html>
